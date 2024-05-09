@@ -2,7 +2,7 @@ public class ResultadoEscolarTernario {
     // Cenário 1
 	public static void main(String[] args) {
 		int nota = 5;
-		String resultado = nota >=7 ? "Aprovado" : "Reprovado";
+		String resultado = nota >=7 ? "Aprovado" : "Reprovado"; // ? = faça     : = senão
 		System.out.println(resultado);
 	}
 }
